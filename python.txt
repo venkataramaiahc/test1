@@ -1,0 +1,7 @@
+room_rent =  input('enter the rent: ')
+ expenses = input('enter expenses: ')
+ split_expenses = (int(expenses)) / (int(input(' number of people: ')))
+  split_room_rent =int( room_rent) / (int(input('enter number of people: '))
+ total_expenses = split_room_rent + split_expenses
+ print(total_expenses)
+
